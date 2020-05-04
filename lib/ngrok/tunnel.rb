@@ -88,6 +88,7 @@ module Ngrok
         exec_params << "-subdomain=#{@params[:subdomain]} " if @params[:subdomain]
         exec_params << "-hostname=#{@params[:hostname]} " if @params[:hostname]
         exec_params << "-inspect=#{@params[:inspect]} " if @params.has_key? :inspect
+        exec_params << "-auth=#{@params[:auth]} " if @params.has_key? :auth
         exec_params << "-config=#{@params[:config]} #{@params[:addr]} > #{@params[:log].path}"
       end
 
