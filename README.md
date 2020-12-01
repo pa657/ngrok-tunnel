@@ -7,7 +7,8 @@ Ngrok-tunnel gem is a ruby wrapper for ngrok v2.
 ## Installation
 
 *Note:* You must have ngrok v2+ installed available in your `PATH`.
-*Note SantéGo :* vérifier l'absence du gem ngrok (which ngrok) et installer comme ceci : sudo snap install ngrok.
+
+*Note SantéGo :* vérifier l'absence du gem ngrok (which ngrok) et installer comme ceci : snap install ngrok.
 
 
 Add this line to your application's Gemfile:
